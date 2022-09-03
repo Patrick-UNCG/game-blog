@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Kanit', sans-serif;
+}
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  background-color: red;
+}
+
+#main-heading{
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin:40px auto;
+  max-width: 1500px;
+  height: 500px;
+}
+
+
+.hero-image{
+  width: 800px;
+  height: 450px;
+  align-self: center;
+  margin-right: 50px;
+  border-radius: 9px;
+}
+
+#hero-content{
+  text-align: left;
+  width: 400px;
+  height: 400px;
+}
+#hero-category{
+  padding-top: 0px;
+  margin-bottom: 0px;
+  color: #FF331F;
+}
+#hero-title{
+  margin-top: 0px;
+  font-size: 40px;
+}
+#hero-author{
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+#hero-date{
+  margin-top: 0px;
+}
+
+.hero-author-date{
+  display: flex;
+}
+
+.card-container {
+  width: 298px;
+  height: 450px;
+  font-size: 12px;
+  flex: 0 0 auto;       
+  display: flex;         
+  flex-direction: column; 
+  position: relative;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  text-align: left;
+  
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+#cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#card-category{
+  margin-bottom: 0;
+  color:#FF331F;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#card-title{
+  margin-top: 10px;
+  font-size: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.author-date{
+  display: flex;
+  position:absolute;
+  bottom:0;
+  left:20;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#card-author{
+  margin-right: 5px;
+}
