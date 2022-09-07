@@ -6,6 +6,7 @@ body {
 }
 
 
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -28,9 +29,8 @@ body {
 }
 
 #main-heading{
-  display: inline-block;
-  text-align: left;
-  margin-left: auto;
+  position: relative;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -56,14 +56,19 @@ body {
   width: 400px;
   height: 400px;
 }
+
 #hero-category{
   padding-top: 0px;
   margin-bottom: 0px;
   color: #FF331F;
 }
+
 #hero-title{
   margin-top: 0px;
-  font-size: 40px;
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  
 }
 #hero-author{
   margin-top: 0px;
@@ -120,6 +125,8 @@ body {
   font-size: 21px;
   padding-left: 10px;
   padding-right: 10px;
+  color: black;
+  font-weight: bold;
 }
 
 .author-date{
@@ -133,4 +140,65 @@ body {
 
 #card-author{
   margin-right: 5px;
+}
+
+#article-list{
+  text-align: left;
+  padding-left: 40px;
+}
+
+
+.article-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  
+}
+
+#article-category{
+  color: #FF331F;
+}
+
+#article-title{
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 800px;
+}
+
+#article-img{
+  width: 800px;
+  height: 450px;
+  margin-right: 50px;
+  border-radius: 9px;
+}
+
+.article-author-date{
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+#article-author{
+  margin-right: 5px;
+}
+
+#article-img-subtitle{
+  font-size: 18px;
+  font-weight: bold;
+  width: 800px;
+  margin-top: 5px;
+}
+
+#article-subtitle{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 8px;
+  margin-bottom: 0;
+  width: 800px;
+}
+
+.article-paragraph{
+  width: 800px;
 }

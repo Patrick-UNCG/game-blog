@@ -14,19 +14,21 @@ export default function Gaming(){
             img={require(`../images/${item.coverImg}`)}
             date={item.date}
             author={item.author}
+            link={item.link}
         />
     )
 })
     return (
     <div className="Gaming">
-      <h1 id="main-heading">Top Stories</h1>
+      <h1 id="main-heading"><i className="fa-solid fa-square fa-2xs"></i> Top Stories</h1>
       <Hero key={data[data.length-1].id}
             id={data[data.length-1].id}
             title={data[data.length-1].title}
             category={data[data.length-1].category}
             img={require(`../images/${data[data.length-1].coverImg}`)}
             date={data[data.length-1].date}
-            author={data[data.length-1].author}/>
+            author={data[data.length-1].author}
+            link={data[data.length-1].link}/>
       <div id="cards-list">
         {cards}
       </div>

@@ -3,9 +3,10 @@ export default [
         id: 1,
         title: "My top 5 Favorite Wrestling Matches of All Time",
         category: "WRESTLING",
-        coverImg: "moonsault.jpg",
+        coverImg: "the-shield-vs-orton-team-hell-no.jpg",
         author:"Patrick Ksor",
-        date: "9/2/2022"
+        date: "9/2/2022",
+        link:"/wrestlingArticles#favorite-wrestling-matches"
     },
     {
         id: 2,
@@ -13,22 +14,25 @@ export default [
         category: "WRESTLING",
         coverImg: "tripleh.jpg",
         author:"Patrick Ksor",
-        date: "9/2/2022"
+        date: "9/2/2022",
+        link:"/wrestlingArticles#triple-h-takeover"
     },
     {
-        id: 1,
-        title: "My top 5 Favorite Wrestling Matches of All Time",
+        id: 3,
+        title: "My top 5 Favorite Wrestlers of All Time",
         category: "WRESTLING",
-        coverImg: "moonsault.jpg",
+        coverImg: "kurt.jpg",
         author:"Patrick Ksor",
-        date: "9/2/2022"
+        date: "9/2/2022",
+        link:"/wrestlingArticles#favorite-wrestlers"
     },
     {
-        id: 2,
-        title: "My honest opinion of Triple H taking over WWE Creative",
+        id: 4,
+        title: "My top 5 Favorite Wrestling Themes",
         category: "WRESTLING",
-        coverImg: "tripleh.jpg",
+        coverImg: "no-more-words.jpg",
         author:"Patrick Ksor",
-        date: "9/2/2022"
+        date: "9/2/2022",
+        link:"/wrestlingArticles#wrestling-themes"
     }
 ]
