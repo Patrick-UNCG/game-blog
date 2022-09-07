@@ -1,4 +1,4 @@
-export default [
+const gamingArticles= [
     {
         id: 1,
         mainTitle: "VALORANT Agent Tier List",
@@ -91,3 +91,4 @@ export default [
         link:"top-5-pokemon"
     },
 ]
+export default gamingArticles;

@@ -1,4 +1,4 @@
-export default [
+const gamingData= [
     {
         id: 1,
         title: "VALORANT Agent Tier List",
@@ -37,3 +37,5 @@ export default [
     }
     
 ]
+
+export default gamingData;

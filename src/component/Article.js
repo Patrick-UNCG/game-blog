@@ -9,15 +9,15 @@ export default function Article(props){
                 <p id="article-author">{props.author}</p>
                 <p id="article-date">{props.date}</p>
             </div>
-            <img id="article-img" src={props.mainImg}/>
-            <h4 id="article-img-subtitle">{props.picSubtitle}</h4>
+            <img id="article-img" src={props.mainImg} alt="first one here"/>
+            <h4 id="article-img-subtitle">{props.picSubtitle} </h4>
             <p className="article-paragraph">{props.paragraph1}</p>
             <p className="article-paragraph">{props.paragraph2}</p>
             <h4 id="article-subtitle">{props.subTitle}</h4>
-            <img id="article-img" src={props.subImg}/>
+            <img id="article-img" src={props.subImg} alt="second one here"/>
             <p className="article-paragraph">{props.paragraph3}</p>
             <p className="article-paragraph">{props.paragraph4}</p>
-            <img id="article-img" src={props.subImg2}/>
+            <img id="article-img" src={props.subImg2} alt="third one here"/>
             <p className="article-paragraph">{props.paragraph5}</p>
             {props.id===1?"":<h4>Keep Reading</h4>}
         </div>

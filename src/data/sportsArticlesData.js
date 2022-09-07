@@ -1,4 +1,4 @@
-export default [
+const sportsArticles= [
     {
         id: 1,
         mainTitle: "My top 5 Favorite Quarterbacks of All Time",
@@ -89,3 +89,4 @@ export default [
         link:"top-5-pokemon-games"
     },
 ]
+export default sportsArticles;

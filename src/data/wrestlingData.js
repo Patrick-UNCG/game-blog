@@ -1,4 +1,6 @@
-export default [
+
+
+const wrestlingData = [
     {
         id: 1,
         title: "My top 5 Favorite Wrestling Matches of All Time",
@@ -36,3 +38,4 @@ export default [
         link:"/wrestlingArticles#wrestling-themes"
     }
 ]
+export default wrestlingData;

@@ -1,4 +1,4 @@
-export default [
+const sportsData= [
     {
         id: 1,
         title: "My top 5 Favorite Quarterbacks of All Time",
@@ -35,3 +35,4 @@ export default [
         link:"/sportsArticles#least-favorite-qbs"
     }
 ]
+export default sportsData;
