@@ -144,7 +144,8 @@ body {
 
 #article-list{
   text-align: left;
-  padding-left: 40px;
+  padding-left: 400px;
+
 }
 
 
@@ -152,7 +153,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  
 }
 
 #article-category{
@@ -160,7 +160,7 @@ body {
 }
 
 #article-title{
-  font-size: 50px;
+  font-size: 60px;
   margin-top: 0;
   margin-bottom: 0;
   width: 800px;

@@ -49,7 +49,7 @@ const wrestlingArticles= [
         subTitle: "Most of these wrestlers are not just good in the ring but also good on the mic, and could manipulate the crowd.",
         category: "Top 5s WRESTLING",
         mainImg: "kurt.jpg",
-        subImg:"styles.png",
+        subImg:"styles.jpg",
         subImg2:"jomo.jpg",
         author:"Patrick Ksor",
         date: "9/1/2022",
